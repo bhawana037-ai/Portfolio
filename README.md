@@ -1,56 +1,79 @@
-# Dheeraj — Portfolio Website
+# Bhawana Gupta — Portfolio Website
 
-A portfolio website crafted for **Dheeraj** (Cybersecurity Specialist & Software Developer at VIT Vellore), inspired by the dark luxury aesthetics, kinetic typography, and motion of [jishnumondal.vercel.app](https://jishnumondal.vercel.app/).
+A personal portfolio website crafted for **Bhawana Gupta** (1st Year B.Tech Information Technology Student at VIT Vellore), featuring a modern dark-mode aesthetic, kinetic motion, and responsive bento grid components.
+
+---
+
+## 👩‍💻 About Me
+
+- **Name:** Bhawana Gupta
+- **Degree:** B.Tech in Information Technology (1st Year)
+- **Institution:** Vellore Institute of Technology (VIT), Vellore
+- **Location:** Vellore, Tamil Nadu, India
+- **Core Focus:** Object-Oriented Programming (Java), Data Structures & Algorithmic Problem Solving (Python), Web Development & Applied AI/ML
+- **Chapter Engagements:** Active applicant and candidate across **IEEE**, **ACM**, **GDSC**, **CSI**, and **CodeChef VIT Chapter**
 
 ---
 
 ## 🚀 Live Preview Locally
 
-Your website is currently running locally. You can view it in your browser:
+The website runs on a zero-dependency static setup:
 
-- **Local Server**: [http://localhost:3000](http://localhost:3000)
-- **Direct File**: Open [`index.html`](index.html) directly in any browser (Chrome, Edge, Brave, Firefox).
-
----
-
-## 🛠 Tech Stack
-
-- **HTML5**: Semantic, accessible structure with OpenGraph meta tags.
-- **Vanilla CSS**: Custom design system with glassmorphism, responsive bento grids, and dark mode tokens.
-- **Vanilla JavaScript**: Lightweight engine for preloader counter, ambient dust particles canvas, custom cursor, 3D card tilt, and smooth navigation.
-- **Google Fonts**: *Syne*, *Space Grotesk*, *Poppins*, and *JetBrains Mono*.
+- **Local Server:** [http://localhost:8080](http://localhost:8080)
+- **Direct Entry:** Open `index.html` directly in any web browser.
 
 ---
 
-## 📝 Customization Guide
+## 🎓 Educational Background
 
-### 1. Adding Your GitHub & LinkedIn Links
-Open [`script.js`](script.js) and update the `PORTFOLIO_CONFIG.socials` object:
-```javascript
-socials: {
-  github: "https://github.com/DheerajRajput24",
-  linkedin: "https://www.linkedin.com/in/dhiraj-rajput-90011a423/",
-  twitter: "#"
-}
-```
-Or directly in [`index.html`](index.html) under the `#contact` section on lines ~490-505.
-
-### 2. Updating Your 2 Featured Projects
-In [`index.html`](index.html), search for `<!-- Project 01 -->` and `<!-- Project 02 -->` in the `projects-section` to update:
-- Project title
-- Summary description
-- Tech stack tags
-- Live site link and GitHub repository URL
+| Qualification | Institution | Board / University | Score | Year | Key Highlights |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **B.Tech IT** | Vellore Institute of Technology, Vellore | VIT University | *In Progress* | 2026 – Present | Core CS/IT coursework, Data Structures, Java & Python |
+| **Class XII** | Gyanasthali High School, Patna | CBSE | **84.2%** | 2026 | Physics, Chemistry, Mathematics, Computer Applications |
+| **Class X** | St. Joseph's Convent, Patna | ICSE | **95.2%** | 2024 | Distinction in Computer Applications (Java) & Mathematics |
 
 ---
 
-## 🌐 Deploying to Vercel or GitHub Pages
+## 🛠 Technical Skill Set
+
+- **Programming Languages:** Java (Core, OOP, Application Logic), Python 3 (Algorithmic Logic & Scripting), C/C++ (Foundational)
+- **Web Development (Exploring):** HTML5, CSS3, JavaScript (Vanilla ES6+)
+- **Developer Tools & Workflow:** Git, GitHub, VS Code, AntiGravity IDE, PowerShell / Linux Terminal
+- **Focus Areas:** Object-Oriented Architecture, Data Structures & Algorithms (DSA), Web Applications, AI/ML Logic
+
+---
+
+## 💡 Featured Projects
+
+### 1. GoLegal — AI-Based Legal Assistance Platform
+- **Context:** *Dev Jams Hackathon Project*
+- **Role:** Core Team Member / Logic & Web Interface Contributor
+- **Tech Stack:** Python, Web Technologies, Algorithmic Suggestion Logic
+- **Summary:** Built an AI-driven suggestion engine and user interface that parses small dispute details and provides preliminary legal advice and structured precedent recommendations.
+
+### 2. Java Computer Applications & Logic Suite
+- **Context:** *Independent Development & ICSE Application Foundations*
+- **Role:** Sole Developer
+- **Tech Stack:** Java, Object-Oriented Programming (OOP), File Processing
+- **Summary:** Developed a collection of modular Java applications (including database management utilities, calculators, and automated problem solvers) demonstrating robust exception handling, encapsulation, and clean object-oriented architecture.
+
+---
+
+## 🔗 Profiles & Contact Links
+
+- **GitHub:** [github.com/bhawana037-ai](https://github.com/bhawana037-ai)
+- **LinkedIn:** [linkedin.com/in/bhawana-gupta-14246142a](https://www.linkedin.com/in/bhawana-gupta-14246142a)
+- **LeetCode:** [leetcode.com/u/bhawanagupta/](https://leetcode.com/u/bhawanagupta/)
+- **Email:** `bhawana.gupta2026@vitstudent.ac.in`
+
+---
+
+## ⚙️ Deployment Instructions
 
 ### Deploy to Vercel (Recommended):
-1. Push this folder to a GitHub repository.
-2. Go to [vercel.com](https://vercel.com) and import the repository.
-3. Click **Deploy** (no build settings required; it deploys instantly).
+1. Import the repository `bhawana037-ai/Portfolio` into [Vercel](https://vercel.com).
+2. Click **Deploy** (deploys instantly without custom build commands).
 
 ### Deploy to GitHub Pages:
-1. In your GitHub repository, go to **Settings** > **Pages**.
-2. Select the `main` branch as the build source and save.
+1. Go to **Settings** > **Pages** in your GitHub repository.
+2. Select `main` branch as the build source and click **Save**.
