@@ -6,20 +6,22 @@
  * ===================================================================
  */
 
-// User Configuration Object for Dheeraj
+// User Configuration Object for Bhawana Gupta
 const PORTFOLIO_CONFIG = {
-  name: "DHEERAJ",
-  fullName: "Dheeraj",
-  monogram: "DR",
-  title: "Cybersecurity Specialist & Software Developer",
-  tagline: "Bridging rapid AI-assisted development with robust cybersecurity practices.",
-  roleBio: "Pursuing B.Tech in CSE (Cybersecurity Specialization) at VIT Vellore. Building resilient, efficient solutions at the intersection of security and modern software development using prompt-driven workflows and AI tools.",
-  badgeText: "CYBERSECURITY & AI-DRIVEN DEVELOPMENT",
-  email: "dheeraj.deepaksing2026@vitstudent.ac.in",
+  name: "BHAWANA",
+  fullName: "Bhawana Gupta",
+  monogram: "BG",
+  title: "1st Year B.Tech IT Student @ VIT Vellore | Java & Python Developer | Aspiring Web Developer & AI/ML Enthusiast",
+  tagline: "1st Year B.Tech IT Student @ VIT Vellore | Java & Python Developer | Aspiring Web Developer & AI/ML Enthusiast",
+  roleBio: "Enthusiastic Information Technology undergraduate at Vellore Institute of Technology with a strong foundational background in Java, Object-Oriented Programming, and algorithmic problem-solving. Currently expanding my toolkit with Python and modern Web Development, with a keen interest in building intelligent systems at the intersection of Web Dev and AI/ML. Active applicant undergoing technical inductions for premier university technical chapters (IEEE, ACM, GDSC, CSI, CodeChef VIT).",
+  badgeText: "1ST YEAR B.TECH IT @ VIT VELLORE",
+  email: "bhawana.gupta2026@vitstudent.ac.in",
   location: "Vellore, Tamil Nadu, India",
   socials: {
-    github: "https://github.com/DheerajRajput24",
-    linkedin: "https://www.linkedin.com/in/dhiraj-rajput-90011a423/",
+    github: "https://github.com/bhawana037-ai",
+    linkedin: "https://www.linkedin.com/in/bhawana-gupta-14246142a?utm_source=share_via&utm_content=profile&utm_medium=member_android",
+    codechef: "#",
+    leetcode: "https://leetcode.com/problemset/",
     twitter: "#"
   }
 };
@@ -80,11 +82,20 @@ function initProfileData() {
 
   const githubLink = document.getElementById("githubLink");
   const linkedinLink = document.getElementById("linkedinLink");
+  const codechefLink = document.getElementById("codechefLink");
+  const leetcodeLink = document.getElementById("leetcodeLink");
+
   if (githubLink && PORTFOLIO_CONFIG.socials.github && PORTFOLIO_CONFIG.socials.github !== "#") {
     githubLink.href = PORTFOLIO_CONFIG.socials.github;
   }
   if (linkedinLink && PORTFOLIO_CONFIG.socials.linkedin && PORTFOLIO_CONFIG.socials.linkedin !== "#") {
     linkedinLink.href = PORTFOLIO_CONFIG.socials.linkedin;
+  }
+  if (codechefLink && PORTFOLIO_CONFIG.socials.codechef && PORTFOLIO_CONFIG.socials.codechef !== "#") {
+    codechefLink.href = PORTFOLIO_CONFIG.socials.codechef;
+  }
+  if (leetcodeLink && PORTFOLIO_CONFIG.socials.leetcode && PORTFOLIO_CONFIG.socials.leetcode !== "#") {
+    leetcodeLink.href = PORTFOLIO_CONFIG.socials.leetcode;
   }
 
   // Hydrate every GitHub icon and link across the page
@@ -100,6 +111,24 @@ function initProfileData() {
   if (PORTFOLIO_CONFIG.socials.linkedin && PORTFOLIO_CONFIG.socials.linkedin !== "#") {
     document.querySelectorAll(".linkedin-link, a[aria-label*='LinkedIn' i], a[title*='LinkedIn' i]").forEach((el) => {
       el.href = PORTFOLIO_CONFIG.socials.linkedin;
+      el.target = "_blank";
+      el.rel = "noopener noreferrer";
+    });
+  }
+
+  // Hydrate CodeChef links
+  if (PORTFOLIO_CONFIG.socials.codechef && PORTFOLIO_CONFIG.socials.codechef !== "#") {
+    document.querySelectorAll(".codechef-link, a[aria-label*='CodeChef' i], a[title*='CodeChef' i]").forEach((el) => {
+      el.href = PORTFOLIO_CONFIG.socials.codechef;
+      el.target = "_blank";
+      el.rel = "noopener noreferrer";
+    });
+  }
+
+  // Hydrate LeetCode links
+  if (PORTFOLIO_CONFIG.socials.leetcode && PORTFOLIO_CONFIG.socials.leetcode !== "#") {
+    document.querySelectorAll(".leetcode-link, a[aria-label*='LeetCode' i], a[title*='LeetCode' i]").forEach((el) => {
+      el.href = PORTFOLIO_CONFIG.socials.leetcode;
       el.target = "_blank";
       el.rel = "noopener noreferrer";
     });
